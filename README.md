@@ -1,17 +1,16 @@
-# AaminahSpace — Aaminah Khan
+# AaminahSpace | Aaminah Khan
 
-A responsive, editorial-style portfolio website for Aaminah Khan, Social Media Manager and founder of AaminahSpace.
+A multi-page editorial portfolio and creative space for Aaminah Khan.
 
-## Stack
-- Semantic HTML
-- CSS (responsive layout, reduced-motion support)
-- Vanilla JavaScript
-- Google Fonts: Playfair Display + DM Sans
-
-No build step or package installation is required.
+## Experience
+- Interactive editorial homepage with a clickable canvas.
+- Separate pages for About, Studio, Selected Work, Journal and Contact.
+- Subtle hover movement, magnetic links and responsive navigation.
+- Responsive layouts and reduced-motion support.
+- Vanilla HTML, CSS and JavaScript. No build step required.
 
 ## Run locally
-Open `index.html` in a browser, or run a local static server:
+Open `index.html` in a browser, or run:
 
 ```bash
 python -m http.server 8000
@@ -20,20 +19,20 @@ python -m http.server 8000
 Then visit http://localhost:8000.
 
 ## Deploy to Vercel
-Import this GitHub repository into Vercel. It is a static site:
+Import this repository as a static site:
 - Framework preset: Other
 - Build command: leave blank
-- Output directory: leave blank / project root
+- Output directory: project root
+- No environment variables required
 
-No environment variables are required for the current version.
+## Before public launch
+- Replace the portrait placeholder with Aaminah's approved photo, if she is comfortable sharing one.
+- Replace editorial placeholder compositions with approved original project assets.
+- Confirm biography wording, service offers and case-study summaries.
+- Confirm permission to name client projects and publish case-study details.
+- Add client testimonials only with exact approved wording and permission.
+- Confirm email and Instagram links.
+- Review the journal themes with Aaminah before presenting them as her personal writing.
 
-## Content checks before public launch
-- Confirm Aaminah's preferred biography and personal details.
-- Confirm the four service groupings and wording reflect her current offers.
-- Confirm the case-study summaries can be published and client naming is approved.
-- Replace the CSS-created illustrative portfolio compositions with approved original project screenshots/assets when available.
-- Confirm the email and Instagram links.
-- Add client testimonials only after receiving exact approved wording and permission.
-
-## Source integrity
-Initial copy is based on Aaminah's supplied 19-page creative portfolio. No unverified qualifications, testimonials, or numerical performance claims have been added. The portfolio visuals are CSS-created illustrative compositions, not original client artwork, and the page says so explicitly.
+## Content integrity
+Copy is based on Aaminah's supplied portfolio, with editorial connective text added for the website. No invented testimonials or numerical performance claims have been added. The project visuals are placeholders, not original client deliverables. The journal cards are proposed themes, not previously published articles.
